@@ -39,15 +39,15 @@ class SDVX:
         sdvx.times = played_times
     def __str__ (sdvx):
         return f"Name:{sdvx.name}\nID:{sdvx.id}\nVolforce:{sdvx.vol}\nDan Class:{sdvx.dan}\nPlayed_Times:{sdvx.times}\n"
-    
+
 p1 = SDVX ("NekoTaro","SV-3810-7398",18.198,11,733)
 typewriter_effect ("Welcome to Sound Voltex!\n")
 time.sleep(3)
-typewriter_effect ("Login...\n")
+typewriter_effect ("Login...\n\n")
 time.sleep(5)
 print (p1)
 
-# Game mode select 
+# Game mode select
 time.sleep(5)
 while True:
     time.sleep(1.5)
